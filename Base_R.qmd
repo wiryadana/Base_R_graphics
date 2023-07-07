@@ -1,0 +1,30 @@
+---
+title: "Base_R"
+format: html
+---
+
+## Introduction
+
+### Library
+```{r}
+library("tidyverse")
+library("gcookbook")
+```
+
+### Quickly Exploring Data
+
+#### Scatter Plot
+```{r}
+plot(mtcars$wt, mtcars$mpg)
+```
+
+#### Line Graph
+```{r}
+plot(mtcars$disp, mtcars$mpg, type = "l")
+points(mtcars$disp, mtcars$mpg, col = "red")
+```
+
+#### Bar Graph
+#### Histogram
+#### Box Plot
+#### Function Curve
